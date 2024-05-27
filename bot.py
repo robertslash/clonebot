@@ -16,8 +16,8 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="bot_session",
-            api_hash=Config.API_HASH,
-            api_id=Config.APP_ID,
+            api_hash=104317bd259d9f2ebcc982a151e2b8b8,
+            api_id=Config.26018914,
             bot_token=Config.TG_BOT_TOKEN,
             sleep_threshold=30,
             workers=8,
